@@ -1,0 +1,77 @@
+# Sistema
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Virtualenv
+venv/
+env/
+ENV/
+venv.bak/
+*.env
+
+# Conda environment
+.conda/
+conda-meta/
+*.condarc
+*.conda
+*.conda-lock
+*.condarc.d
+*.conda-env/
+envs/
+*.yml
+*.yaml
+
+# Configurações de IDEs e editores de texto
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de migração do Django
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+
+# Arquivos estáticos e de mídia
+staticfiles/
+media/
+node_modules/
+
+# Arquivos de cobertura de teste
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pytest_cache/
+pytest_cache/
+
+# Arquivos de cache do Django
+*.cache
+
+# Arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos gerados pelo manage.py collectstatic
+static/
+
+# Arquivos de banco de dados SQLite
+*.sqlite3
+
+# Arquivos de logs
+*.log
+
+# Arquivos de ambiente
+.env

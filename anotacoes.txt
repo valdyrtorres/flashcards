@@ -1,0 +1,69 @@
+Vou usar aqui o gerencoador de ambiente virtual do conda, o virtconda que criei, ou seja, o conda em vez do venv (o virt que criei com o venv)
+
+conda create --name virtconda python=3.12.5 (no venv é python -m venv virt)
+
+#
+# To activate this environment, use
+#
+#     $ conda activate virtconda (no venv .\virt\Scripts\Activate para ativar o ambiente de nome virt) (no linux usar o source na frente)
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate (no venv basta deactivate)
+
+listar os ambientes virtuais:
+conda env list
+ou
+conda info --envs
+
+Comando para ver o ambiente virtual ativo:
+Pode usar o "conda env list" e ver onde está marcado com o asterisco indicando o ambiente ativo
+ou
+conda env list | grep '*'
+
+-------------------------------
+pip freeze
+
+Instalando django
+pip install django
+
+Criando o projeto
+django-admin startproject flash
+
+Inciando o servidor web
+PS C:\VALDIR\devcode\python\codemy\django\flashcards\flash> python .\manage.py runserver
+
+Rodando a migration
+python .\manage.py migrate
+
+python .\manage.py runserver
+
+Criando usuário de administração:
+python .\manage.py createsuperuser 
+
+Criando aplicação ou website: (dentro do projeto flash: Diretório: C:\VALDIR\devcode\python\codemy\django\flashcards\flash)
+python manage.py startapp website
+
+Instalandos novos apps que você criou (como no comando anterior):
+Atenção no arquivo settings.py, incluir o app criado "website" em INSTALLED_APPS
+
+Criando arquivo URLs.py:
+Use o arquivo urls.py debaixo de flash como exemplo e salve um novo debaixo do app "website":
+em urls.py debaixo de flash inclua a referencia ao app website (link)
+
+criar diretorio templates em "website"
+criar home.html em templates
+
+Normalmente, você não mais mais no urls.py debaixo de flash
+
+São três passos:
+criar template ex: home.html
+criar referencia em views.py
+criar referencia em urls.py
+
+
+
+
+
+
+
