@@ -61,6 +61,13 @@ criar template ex: home.html
 criar referencia em views.py
 criar referencia em urls.py
 
+CSS e bootstrap
+getbootstrap.com
+
+criar o base.html
+
+
+
 
 
 
