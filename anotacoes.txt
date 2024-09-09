@@ -19,7 +19,7 @@ conda info --envs
 Comando para ver o ambiente virtual ativo:
 Pode usar o "conda env list" e ver onde está marcado com o asterisco indicando o ambiente ativo
 ou
-conda env list | grep '*'
+conda env list | grep '\*'
 
 -------------------------------
 pip freeze
